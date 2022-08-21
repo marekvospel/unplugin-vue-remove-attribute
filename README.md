@@ -23,6 +23,21 @@ export default defineConfig({
 ```
 </details>
 
+<details>
+<summary>Rollup</summary>
+
+```ts
+// rollup.config.js
+import RemoveAttributes from 'unplugin-vue-remove-attribute/rollup'
+
+export default {
+  plugins: [
+    RemoveAttributes({ /* options */ })
+  ]
+}
+```
+</details>
+
 ## Usage
 
 This plugin removes matching attributes in vue components, so testing attributes like `data-test-...` are removed in production build.
