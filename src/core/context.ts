@@ -2,6 +2,7 @@ import { Options } from './types'
 import { createFilter } from '@rollup/pluginutils'
 
 export class Context {
+  enable = true
   options: Options
 
   attrsFilter: (id: unknown)=> boolean

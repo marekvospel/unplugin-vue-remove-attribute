@@ -4,6 +4,8 @@ import { Context } from './context'
 export const vue = (code: string, ctx: Context): string => {
   const result = parse(code)
 
+  if (!result.descriptor.template) return code
+
   let deleteLocs = []
 
   for (const child of result.descriptor.template.ast.children) {

@@ -19,7 +19,14 @@ export const plugin = createUnplugin<Options>((options = {}) => {
       return filter(id)
     },
     transform(code): string {
+      if (!ctx.enable) return code
+
       return vue(code, ctx)
+    },
+    vite: {
+      config(config, { command }): void {
+        if (command !== 'build') ctx.enable = false
+      },
     },
   }
 })

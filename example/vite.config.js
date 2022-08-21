@@ -6,8 +6,8 @@ import removeAttribute from 'unplugin-vue-remove-attribute/vite'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
-    vue(),
     removeAttribute({ remove: [/^data-test/] }),
+    vue(),
     inspect(),
   ],
 })
