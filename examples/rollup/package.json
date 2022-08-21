@@ -1,15 +1,10 @@
 {
-  "name": "example",
+  "name": "rollup",
   "private": true,
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
     "build": "rollup -c rollup.config.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@vue/compiler-sfc": "^3.2.37",
     "rollup": "^2.78.1",

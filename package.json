@@ -1,6 +1,14 @@
 {
   "name": "unplugin-vue-remove-attribute",
   "version": "1.0.0",
+  "description": "Remove attributes from vue templates at build time ",
+  "author": "Marek Vospěl <marek@vospel.cz>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marekvospel/unplugin-vue-remove-attributes"
+  },
+  "homepage": "https://github.com/marekvospel/unplugin-vue-remove-attributes#readme",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -9,6 +17,7 @@
     "dev": "tsup --watch"
   },
   "exports": {
+    "./package.json": "./package.json",
     ".": {
       "require": "./dist/index.js",
       "import": "./dist/index.mjs",
@@ -46,5 +55,6 @@
     "tsup": "^6.2.2",
     "typescript": "^4.7.4",
     "vite": "^3.0.9"
-  }
+  },
+  "packageManager": "pnpm@7.9.3"
 }
