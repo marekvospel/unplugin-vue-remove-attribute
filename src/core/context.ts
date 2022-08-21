@@ -9,8 +9,9 @@ export class Context {
 
   constructor(options?: Options) {
 
+    if (options.enabled === false) this.enable = false
     this.options = options
-    this.attrsFilter = createFilter(options.remove)
+    this.attrsFilter = createFilter(options.remove || [/^data-test/])
 
   }
 }

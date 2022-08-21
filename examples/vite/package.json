@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "unplugin-vue-remove-attribute": "link:..",
+    "unplugin-vue-remove-attribute": "link:../..",
     "vue": "^3.2.37"
   },
   "devDependencies": {

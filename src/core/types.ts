@@ -4,5 +4,7 @@ export interface Options {
   include?: FilterPattern
   exclude?: FilterPattern
 
+  enabled?: boolean
+
   remove?: FilterPattern
 }
