@@ -1,7 +1,5 @@
 
 module.exports = {
-  env: {
-    node: true
-  },
-  extends: ['@vospel']
+  env: { node: true },
+  extends: ['@vospel'],
 }

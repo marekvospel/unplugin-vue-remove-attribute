@@ -15,7 +15,7 @@
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
-    "lint": ""
+    "lint": "eslint ."
   },
   "exports": {
     "./package.json": "./package.json",
