@@ -9,6 +9,6 @@ const test = ref('')
     test
   </div>
   <CustomComponent v-model:data-test-sus="test" data-test-attr="" :data-test.attr="''">
-    testj
+    <div data-test-attr5></div>
   </CustomComponent>
 </template>

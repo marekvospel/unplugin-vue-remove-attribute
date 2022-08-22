@@ -1,5 +1,6 @@
 import { parse } from '@vue/compiler-sfc'
 import { Context } from './context'
+import { getElements } from './utils/ast'
 
 export const vue = (code: string, ctx: Context): string => {
   const result = parse(code)
@@ -8,7 +9,7 @@ export const vue = (code: string, ctx: Context): string => {
 
   let deleteLocs = []
 
-  for (const child of result.descriptor.template.ast.children) {
+  for (const child of getElements(result.descriptor.template.ast)) {
     if (child.type !== 1) continue
 
     for (const prop of child.props) {
