@@ -17,7 +17,7 @@
     "dev": "tsup --watch",
     "lint": "eslint .",
     "bump": "bumpp --commit 'chore(release): %s' --all --tag '%s' -x 'pnpm generate:changelog' --push",
-    "generate:changelog": "conventional-changelog-cli -i CHANGELOG.md -s -p conventionalcommits && git add CHANGELOG.md'"
+    "generate:changelog": "conventional-changelog -i CHANGELOG.md -s -p conventionalcommits && git add CHANGELOG.md"
   },
   "exports": {
     "./package.json": "./package.json",
