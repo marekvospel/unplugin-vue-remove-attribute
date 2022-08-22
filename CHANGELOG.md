@@ -1,3 +1,10 @@
+### [1.2.2](https://github.com/marekvospel/unplugin-vue-remove-attribute/compare/1.2.1...1.2.2) (2022-08-22)
+
+
+### Bug Fixes
+
+* build only option, undefined error ([63ac341](https://github.com/marekvospel/unplugin-vue-remove-attribute/commit/63ac3415a41706a6642021f45624a38111b5f687))
+
 ### [1.2.1](https://github.com/marekvospel/unplugin-vue-remove-attribute/compare/1.2.0...1.2.1) (2022-08-22)
 
 
