@@ -1,3 +1,10 @@
+### [1.2.1](https://github.com/marekvospel/unplugin-vue-remove-attribute/compare/1.2.0...1.2.1) (2022-08-22)
+
+
+### Bug Fixes
+
+* npmignore ([eff1ad4](https://github.com/marekvospel/unplugin-vue-remove-attribute/commit/eff1ad4db483938002710e0a79f518ca8dce2b3c))
+
 ## [1.2.0](https://github.com/marekvospel/unplugin-vue-remove-attribute/compare/1.1.0...1.2.0) (2022-08-22)
 
 

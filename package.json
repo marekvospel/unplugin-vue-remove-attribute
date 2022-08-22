@@ -1,6 +1,6 @@
 {
   "name": "unplugin-vue-remove-attribute",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Remove attributes from vue templates at build time ",
   "author": "Marek Vospěl <marek@vospel.cz>",
   "license": "MIT",
