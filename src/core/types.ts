@@ -5,6 +5,7 @@ export interface Options {
   exclude?: FilterPattern
 
   enabled?: boolean
+  buildOnly?: boolean
 
   remove?: FilterPattern
 }
