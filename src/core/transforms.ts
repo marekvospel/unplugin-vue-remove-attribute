@@ -1,6 +1,6 @@
 import { parse } from '@vue/compiler-sfc'
 import { Context } from './context'
-import { getElements } from './utils/ast'
+import { getElements, NodeTypes } from './utils/ast'
 
 export const vue = (code: string, ctx: Context): string => {
   const result = parse(code)
@@ -14,7 +14,7 @@ export const vue = (code: string, ctx: Context): string => {
 
     for (const prop of child.props) {
 
-      if (prop.type === 6) {
+      if (prop.type === NodeTypes.ATTRIBUTE) {
         if (!ctx.attrsFilter(prop.name)) continue
 
         deleteLocs.push({
@@ -22,8 +22,9 @@ export const vue = (code: string, ctx: Context): string => {
           end: prop.loc.end.offset,
         })
       } else {
+        if (!prop.arg) continue
         let name
-        if (prop.arg.type === 4) {
+        if (prop.arg.type === NodeTypes.SIMPLE_EXPRESSION) {
           name = prop.arg.content
         } else {
           // TODO ?

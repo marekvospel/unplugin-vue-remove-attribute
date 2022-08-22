@@ -25,12 +25,12 @@ export const plugin = createUnplugin<Options>((options = {}) => {
     },
     vite: {
       config(config, { command }): void {
-        if (command !== 'build' && options.buildOnly) ctx.enable = false
+        if (command !== 'build' && ctx.buildOnly) ctx.enable = false
       },
     },
     rollup: {
       options(config): void {
-        if (config.watch && options.buildOnly) ctx.enable = false
+        if (config.watch && ctx.buildOnly) ctx.enable = false
       },
     },
   }

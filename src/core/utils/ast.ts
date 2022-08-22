@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-namespace */
 import { ElementNode, TemplateChildNode } from '@vue/compiler-core'
 
-namespace NodeTypes {
+export namespace NodeTypes {
   export const ROOT = 0,
     ELEMENT = 1,
     TEXT = 2,
@@ -31,7 +31,7 @@ namespace NodeTypes {
     JS_RETURN_STATEMENT = 26
 }
 
-namespace ElementTypes {
+export namespace ElementTypes {
   export const ELEMENT = 0,
     COMPONENT = 1,
     SLOT = 2,
