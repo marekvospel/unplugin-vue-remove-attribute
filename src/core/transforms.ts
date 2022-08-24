@@ -10,7 +10,6 @@ export const vue = (code: string, ctx: Context): string => {
   let deleteLocs = []
 
   for (const child of getElements(result.descriptor.template.ast)) {
-    if (child.type !== 1) continue
 
     for (const prop of child.props) {
 
@@ -26,9 +25,12 @@ export const vue = (code: string, ctx: Context): string => {
         let name
         if (prop.arg.type === NodeTypes.SIMPLE_EXPRESSION) {
           name = prop.arg.content
-        } else {
-          // TODO ?
         }
+        /* else {
+           TODO ?
+           }
+         */
+
         if (!ctx.attrsFilter(name)) continue
 
         deleteLocs.push({

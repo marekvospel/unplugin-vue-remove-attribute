@@ -1,0 +1,46 @@
+// Vitest Snapshot v1
+
+exports[`transform > ./fixtures/transform/Attribute.vue 1`] = `
+"<template>
+  <div class=\\"hello\\"   />
+</template>
+"
+`;
+
+exports[`transform > ./fixtures/transform/Bind.vue 1`] = `
+"<template>
+  <div  />
+</template>
+"
+`;
+
+exports[`transform > ./fixtures/transform/Model.vue 1`] = `
+"<script setup>
+import { ref } from 'vue'
+
+const model = ref('')
+</script>
+
+<template>
+  <CustomComponent  />
+</template>
+"
+`;
+
+exports[`transform > ./fixtures/transform/NoChange.vue 1`] = `
+"<template>
+  <div class=\\"hello\\" />
+  <div id=\\"123\\">
+    <CustomComponent custom-attribute=\\"custom-attribute\\" />
+    <button :type=\\"'submit'\\" :=\\"{}\\">
+      hello world
+    </button>
+  </div>
+</template>
+"
+`;
+
+exports[`transform > ./fixtures/transform/ParseError.vue 1`] = `
+"test
+"
+`;

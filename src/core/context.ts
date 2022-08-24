@@ -9,7 +9,7 @@ export class Context {
 
   attrsFilter: (id: unknown)=> boolean
 
-  constructor(options?: Options) {
+  constructor(options: Options = {}) {
 
     if (options.enabled === false) this.enable = false
     if (options.buildOnly === false) this.buildOnly = false
