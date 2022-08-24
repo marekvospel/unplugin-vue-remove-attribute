@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+    <testsuite name="test/index.spec.ts" timestamp="2022-08-24T08:51:07.849Z" hostname="MarekPC1" tests="1" failures="0" errors="0" skipped="0" time="0.003">
+        <testcase classname="test/index.spec.ts" name="should work" time="0.003">
+        </testcase>
+    </testsuite>
+</testsuites>
