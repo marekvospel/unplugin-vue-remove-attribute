@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-namespace */
 import { ElementNode, TemplateChildNode } from '@vue/compiler-core'
 
+/* c8 ignore start */
 export namespace NodeTypes {
   export const ROOT = 0,
     ELEMENT = 1,
@@ -37,6 +38,7 @@ export namespace ElementTypes {
     SLOT = 2,
     TEMPLATE = 3
 }
+/* c8 ignore stop */
 
 export function getElements(node: TemplateChildNode): ElementNode[] {
   const current = node.type === NodeTypes.ELEMENT && (node.tagType === ElementTypes.ELEMENT || node.tagType === ElementTypes.COMPONENT) ? [node] : []
