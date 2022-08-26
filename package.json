@@ -47,7 +47,6 @@
   },
   "dependencies": {
     "@rollup/pluginutils": "^4.2.1",
-    "@vue/compiler-sfc": "^3.2.37",
     "unplugin": "^0.9.3"
   },
   "peerDependencies": {
@@ -56,6 +55,7 @@
   "devDependencies": {
     "@vitest/coverage-c8": "^0.22.1",
     "@vospel/eslint-config": "^1.4.9",
+    "@vue/compiler-sfc": "^3.2.37",
     "bumpp": "^8.2.1",
     "conventional-changelog-cli": "^2.2.2",
     "eslint": "^8.22.0",
