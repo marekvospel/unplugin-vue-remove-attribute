@@ -1,3 +1,5 @@
+### [1.2.3](https://github.com/marekvospel/unplugin-vue-remove-attribute/compare/1.2.2...1.2.3) (2022-08-26)
+
 ### [1.2.2](https://github.com/marekvospel/unplugin-vue-remove-attribute/compare/1.2.1...1.2.2) (2022-08-22)
 
 
