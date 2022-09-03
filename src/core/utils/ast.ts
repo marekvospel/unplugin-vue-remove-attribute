@@ -43,8 +43,7 @@ export namespace ElementTypes {
 export function getElements(node: TemplateChildNode): ElementNode[] {
   const current = node.type === NodeTypes.ELEMENT && (node.tagType === ElementTypes.ELEMENT || node.tagType === ElementTypes.COMPONENT) ? [node] : []
 
-  const children = node.type === NodeTypes.IF ?
-    node.branches : node.type === NodeTypes.ELEMENT || node.type === NodeTypes.IF_BRANCH || node.type === NodeTypes.FOR ? node.children : []
+  const children = node.type === NodeTypes.ELEMENT || node.type === NodeTypes.IF_BRANCH || node.type === NodeTypes.FOR ? node.children : []
 
   return [...current, ...children.flatMap(getElements)]
 }
