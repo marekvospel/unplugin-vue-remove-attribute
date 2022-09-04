@@ -53,7 +53,7 @@
     "@vue/compiler-sfc": ">=3"
   },
   "devDependencies": {
-    "@vitest/coverage-c8": "^0.22.1",
+    "@vitest/coverage-c8": "^0.23.0",
     "@vospel/eslint-config": "^1.4.9",
     "@vue/compiler-sfc": "^3.2.37",
     "bumpp": "^8.2.1",
