@@ -1,4 +1,6 @@
 # unplugin-vue-remove-attribute
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fmarekvospel%2Funplugin-vue-remove-attribute.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fmarekvospel%2Funplugin-vue-remove-attribute?ref=badge_shield)
+
 
 Powered by <a href="https://github.com/unjs/unplugin">unplugin</a>.
 
@@ -49,3 +51,6 @@ Thanks to [@antfu](https://github.com/antfu), this project is heavily inspired b
 ## License
 
 MIT License © 2022-PRESENT [Marek Vospěl](https://github.com/marekvospel)
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fmarekvospel%2Funplugin-vue-remove-attribute.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fmarekvospel%2Funplugin-vue-remove-attribute?ref=badge_large)
