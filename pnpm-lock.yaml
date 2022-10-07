@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@rollup/pluginutils': ^4.2.1
-  '@vitest/coverage-c8': ^0.23.0
+  '@vitest/coverage-c8': ^0.24.0
   '@vospel/eslint-config': ^1.4.9
   '@vue/compiler-sfc': ^3.2.37
   bumpp: ^8.2.1
@@ -20,7 +20,7 @@ dependencies:
   unplugin: 0.9.3_vite@3.0.9
 
 devDependencies:
-  '@vitest/coverage-c8': 0.23.0
+  '@vitest/coverage-c8': 0.24.0
   '@vospel/eslint-config': 1.4.9_eslint@8.22.0
   '@vue/compiler-sfc': 3.2.37
   bumpp: 8.2.1
@@ -358,11 +358,11 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vitest/coverage-c8/0.23.0:
-    resolution: {integrity: sha512-8vhn1xViCNI1rx8dzncuzePZsN2eiQN8xFtsXy4sW2nZjH4UcIQlD1nwIY6Yei/RwFalay9F1sq588a/OPMjwg==}
+  /@vitest/coverage-c8/0.24.0:
+    resolution: {integrity: sha512-Ho5256BOrLnsJgEgE368ED17cr8rOAXrxvwpZ+XZUA4yAcMBxGAX08cCeG4dibmNVD2NE9Hcpd2foMZsTge3wA==}
     dependencies:
       c8: 7.12.0
-      vitest: 0.23.0
+      vitest: 0.24.0
     transitivePeerDependencies:
       - '@edge-runtime/vm'
       - '@vitest/browser'
@@ -2914,6 +2914,12 @@ packages:
       acorn: 8.8.0
     dev: true
 
+  /strip-literal/0.4.2:
+    resolution: {integrity: sha512-pv48ybn4iE1O9RLgCAN0iU4Xv7RlBTiit6DKmMiErbs9x1wH6vXBs45tWc0H5wUIF6TLTrKweqkmYF/iraQKNw==}
+    dependencies:
+      acorn: 8.8.0
+    dev: true
+
   /sucrase/3.25.0:
     resolution: {integrity: sha512-WxTtwEYXSmZArPGStGBicyRsg5TBEFhT5b7N+tF+zauImP0Acy+CoUK0/byJ8JNPK/5lbpWIVuFagI4+0l85QQ==}
     engines: {node: '>=8'}
@@ -3033,6 +3039,10 @@ packages:
     resolution: {integrity: sha512-iOqSav00cVxEEICeD7TjLB1sueEL+81Wpzp2bY17uZjZN0pWZPuo4suZ/61VujxmqSGFfgOcNuTZ85QJwNZQpw==}
     dependencies:
       readable-stream: 3.6.0
+    dev: true
+
+  /tinybench/2.3.0:
+    resolution: {integrity: sha512-zs1gMVBwyyG2QbVchYIbnabRhMOCGvrwZz/q+SV+LIMa9q5YDQZi2kkI6ZRqV2Bz7ba1uvrc7ieUoE4KWnGeKg==}
     dev: true
 
   /tinybench/2.3.0:
