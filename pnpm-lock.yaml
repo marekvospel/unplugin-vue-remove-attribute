@@ -10,14 +10,14 @@ specifiers:
   eslint: ^8.22.0
   tsup: ^6.2.2
   typescript: ^4.7.4
-  unplugin: ^0.9.3
+  unplugin: ^0.10.0
   unplugin-auto-import: ^0.11.2
   vite: ^3.0.9
   vitest: ^0.24.0
 
 dependencies:
   '@rollup/pluginutils': 5.0.0
-  unplugin: 0.9.6
+  unplugin: 0.10.0
 
 devDependencies:
   '@vitest/coverage-c8': 0.24.0
@@ -3063,6 +3063,15 @@ packages:
       unplugin: 0.9.6
     dev: true
 
+  /unplugin/0.10.0:
+    resolution: {integrity: sha512-QIoQDNxTceO8QneUMQc96qabJnPVijU9SnaWWAH60HqpkCQSFXTcDAcr8qM4Y7Nq8Q3NafyX3lG5S1g62+KD6g==}
+    dependencies:
+      acorn: 8.8.0
+      chokidar: 3.5.3
+      webpack-sources: 3.2.3
+      webpack-virtual-modules: 0.4.5
+    dev: false
+
   /unplugin/0.9.6:
     resolution: {integrity: sha512-YYLtfoNiie/lxswy1GOsKXgnLJTE27la/PeCGznSItk+8METYZErO+zzV9KQ/hXhPwzIJsfJ4s0m1Rl7ZCWZ4Q==}
     dependencies:
@@ -3070,6 +3079,7 @@ packages:
       chokidar: 3.5.3
       webpack-sources: 3.2.3
       webpack-virtual-modules: 0.4.5
+    dev: true
 
   /uri-js/4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
