@@ -53,7 +53,7 @@
     "@vue/compiler-sfc": ">=3"
   },
   "devDependencies": {
-    "@vitest/coverage-c8": "^0.24.0",
+    "@vitest/coverage-c8": "^0.25.0",
     "@vospel/eslint-config": "^1.4.9",
     "@vue/compiler-sfc": "^3.2.37",
     "bumpp": "^8.2.1",
@@ -63,7 +63,7 @@
     "typescript": "^4.7.4",
     "unplugin-auto-import": "^0.11.2",
     "vite": "^3.0.9",
-    "vitest": "^0.24.0"
+    "vitest": "^0.25.0"
   },
   "packageManager": "pnpm@7.14.2"
 }
