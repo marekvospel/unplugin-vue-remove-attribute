@@ -47,7 +47,7 @@
   },
   "dependencies": {
     "@rollup/pluginutils": "^5.0.0",
-    "unplugin": "^0.10.0"
+    "unplugin": "^1.0.0"
   },
   "peerDependencies": {
     "@vue/compiler-sfc": ">=3"
