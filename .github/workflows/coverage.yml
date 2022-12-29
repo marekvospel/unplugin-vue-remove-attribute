@@ -1,0 +1,30 @@
+on:
+  push:
+    branches: [main]
+  pull_request: 
+    branches: [main]
+
+name: Generate coverage
+
+jobs:
+  coverage:
+    name: Generate coverage
+    runs-on: ubuntu-latest
+    steps:
+     - uses: actions/checkout@v2
+     - uses: pnpm/action-setup@v2
+     - uses: actions/setup-node@v3
+       with:
+         node-version: 18
+         cache: pnpm
+
+     - name: Install
+       run: pnpm i
+
+     - name: Runtest
+       run: pnpm test
+
+     - name: Upload to codecov.io 
+       uses: codecov/codecov-action@v3
+       with:
+         files: ./reports/coverage/lcov.info
