@@ -1,4 +1,8 @@
 # unplugin-vue-remove-attribute
+[![GitHub version](https://img.shields.io/github/package-json/v/marekvospel/unplugin-vue-remove-attribute)](https://github.com/marekvospel/unplugin-vue-remove-attribute)
+[![npm version](https://img.shields.io/npm/v/unplugin-vue-remove-attribute)](https://npmjs.com/package/unplugin-vue-remove-attribute)
+[![Github license](https://img.shields.io/github/license/marekvospel/unplugin-vue-remove-attribute)](https://github.com/marekvospel/unplugin-vue-remove-attribute)
+[![codecov](https://codecov.io/github/marekvospel/unplugin-vue-remove-attribute/branch/main/graph/badge.svg?token=4W90CBG3QP)](https://codecov.io/github/marekvospel/unplugin-vue-remove-attribute)
 
 Powered by <a href="https://github.com/unjs/unplugin">unplugin</a>.
 
