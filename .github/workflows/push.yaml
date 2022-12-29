@@ -50,9 +50,3 @@ jobs:
 
       - name: Test on ${{ matrix.node }}
         run: pnpm test
-
-      - name: Upload to codecov
-        if: ${{ matrix.node == 18 }}
-        uses: codecov/codecov-action@v3
-        with:
-          files: ./reports/coverage/lcov.inf
