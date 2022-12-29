@@ -1,7 +1,7 @@
 on:
   push:
     branches: [main]
-  pull_request: 
+  pull_request:
     branches: [main]
 
 name: Generate coverage
@@ -27,4 +27,4 @@ jobs:
      - name: Upload to codecov
        uses: codecov/codecov-action@v3
        with:
-         files: ./reports/coverage/clover.xml
+         files: ./reports/coverage/lcov.info
