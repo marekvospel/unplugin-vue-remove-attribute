@@ -27,4 +27,4 @@ jobs:
      - name: Upload to codecov
        uses: codecov/codecov-action@v3
        with:
-         files: ./reports/coverage/lcov.info
+         files: ./reports/coverage/clover.xml
