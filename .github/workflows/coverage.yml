@@ -21,10 +21,10 @@ jobs:
      - name: Install
        run: pnpm i
 
-     - name: Runtest
+     - name: Run test
        run: pnpm test
 
-     - name: Upload to codecov.io 
+     - name: Upload to codecov
        uses: codecov/codecov-action@v3
-        with:
-          files: ./reports/coverage/lcov.info
+       with:
+         files: ./reports/coverage/lcov.info
