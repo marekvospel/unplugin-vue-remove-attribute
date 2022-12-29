@@ -24,7 +24,7 @@ jobs:
      - name: Runtest
        run: pnpm test
 
-     - name: Upload to codecov.io 
-       uses: codecov/codecov-action@v3
-       with:
-         files: ./reports/coverage/lcov.info
+     - name: Upload to codecov.io 
+       uses: codecov/codecov-action@v3
+        with:
+          files: ./reports/coverage/lcov.info
