@@ -7,6 +7,7 @@ export default defineConfig({
     outputFile: 'reports/vitest.xml',
     coverage: {
       enabled: true,
+      reporters: ['text', 'lcov'],
       reportsDirectory: 'reports/coverage',
     },
   },
